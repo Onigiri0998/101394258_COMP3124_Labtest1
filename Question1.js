@@ -15,8 +15,8 @@ const mixedArray = ['PIZZA', 10, true, 25, false, 'wings'];
 
 lowerCaseWords(mixedArray)
     .then(result => {
-        console.log(result); // Output: ['pizza', 'wings']
+        console.log(result); 
     })
     .catch(error => {
-        console.error(error); // Output: 'No valid words found in the input array.'
+        console.error(error); 
     });
