@@ -9,7 +9,7 @@ if (fs.existsSync(logsDirectoryPath)) {
     console.log('Files to delete:');
     filesToRemove.forEach(file => {
         const filePath = path.join(logsDirectoryPath, file);
-        console.log(filePath);
+        console.log(filePath);  
         fs.unlinkSync(filePath);
     });
 
